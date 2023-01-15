@@ -88,7 +88,7 @@ const calcEquation = () => {
             equation = previous / current;
             break;
         case "√":
-            equation = Math.pow(previous, 1 / current);
+            equation = Math.pow(current, 1 / previous);
             break;
         case "%":
             equation = (previous / 100) * current;
